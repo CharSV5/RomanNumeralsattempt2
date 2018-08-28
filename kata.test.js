@@ -60,5 +60,16 @@ test('turns 500 to D', () => {
     expect(kata.translate(500)).toBe('D')
 });
 
+test('turns 900 to CM', () => {
+    expect(kata.translate(900)).toBe('CM')
+});
+
+test('turns 1000 to M', () => {
+    expect(kata.translate(1000)).toBe('M')
+});
+
+test('turns 2999 to MMCMXCIX', () => {
+    expect(kata.translate(2999)).toBe('MMCMXCIX')
+});
 
 
