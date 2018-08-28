@@ -31,3 +31,13 @@ test('turns 4 to IV', () => {
 test('turns 9 to IX', () => {
     expect(kata.translate(9)).toBe('IX')
 });
+
+test('turns 20 to XX', () => {
+    expect(kata.translate(20)).toBe('XX')
+});
+
+// test('turns 40 to XL', () => {
+//     expect(kata.translate(40)).toBe('XL')
+// });
+
+
