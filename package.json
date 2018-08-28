@@ -1,0 +1,14 @@
+{
+  "name": "rn-kata-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kata.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
