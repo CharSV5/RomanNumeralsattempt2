@@ -1,6 +1,10 @@
 const kata = {
     translate: (num) => {
         let result = ""
+        if (num >= 10) {
+            result += "X"
+            num -= 10
+        }
         if (num >= 5) {
             result += "V"
             num -= 5
