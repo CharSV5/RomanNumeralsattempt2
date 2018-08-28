@@ -44,6 +44,21 @@ test('turns 50 to L', () => {
     expect(kata.translate(50)).toBe('L')
 });
 
+test('turns 90 to XC', () => {
+    expect(kata.translate(90)).toBe('XC')
+});
+
+test('turns 100 to C', () => {
+    expect(kata.translate(100)).toBe('C')
+});
+
+test('turns 400 to CD', () => {
+    expect(kata.translate(400)).toBe('CD')
+});
+
+test('turns 500 to D', () => {
+    expect(kata.translate(500)).toBe('D')
+});
 
 
 
