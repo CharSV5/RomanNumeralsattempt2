@@ -1,5 +1,9 @@
+const numeralChanger = (value, numeral) => {
+    return {value: value, numeral: numeral};
+};
+
 const numerals = [
-    {value: 10, numeral: 'X'}
+    numeralChanger(10, 'X')
 ]
 
 const kata = {
