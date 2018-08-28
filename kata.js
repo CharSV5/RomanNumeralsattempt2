@@ -3,6 +3,8 @@ const numeralChanger = (value, numeral) => {
 };
 
 const numerals = [
+    numeralChanger(50, 'L'),
+    numeralChanger(40, 'XL'),
     numeralChanger(10, 'X'),
     numeralChanger(9, 'IX'),
     numeralChanger(5, 'V'),
